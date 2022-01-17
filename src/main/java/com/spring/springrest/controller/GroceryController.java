@@ -31,7 +31,7 @@ public class GroceryController {
 	private GroceryService groceryservice;
 	
 	//get fruits
-	@CrossOrigin(origins = "http://localhost:3000")
+	@CrossOrigin(origins = "https://61e52a0e9105799a5c12d31f--nifty-babbage-e7ec56.netlify.app")
 	@GetMapping("/fruits")
 	public List<Fruits> getFruits()
 	{
